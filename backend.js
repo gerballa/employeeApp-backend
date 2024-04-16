@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 
 // enabling CORS for some specific origins only.
 let corsOptions = {
-    origin: ['http://localhost:4200'],
+    origin: ['http://localhost:4200', 'https://employee-management-app-1.web.app'],
 }
 
 app.use(cors(corsOptions))
